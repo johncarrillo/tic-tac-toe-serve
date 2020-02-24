@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package co.edu.ufps.tic_tac_toc_consola;
+package co.edu.ufps.tic_tac_toe.models;
 
 import java.util.Scanner;
 import java.util.regex.Pattern;

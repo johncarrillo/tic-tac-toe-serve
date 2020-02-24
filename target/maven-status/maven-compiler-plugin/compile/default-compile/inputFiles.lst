@@ -1,4 +1,7 @@
-/home/john/NetBeansProjects/tic_tac_toc_consola/src/main/java/co/edu/ufps/tic_tac_toc_consola/Main.java
-/home/john/NetBeansProjects/tic_tac_toc_consola/src/main/java/co/edu/ufps/tic_tac_toc_consola/Tablero.java
-/home/john/NetBeansProjects/tic_tac_toc_consola/src/main/java/co/edu/ufps/tic_tac_toc_consola/Usuario.java
-/home/john/NetBeansProjects/tic_tac_toc_consola/src/main/java/co/edu/ufps/tic_tac_toc_consola/Partida.java
+/home/john/Descargas/spring-boot-web/src/main/java/com/bolsadeideas/springboot/web/app/controllers/EjemploParamsController.java
+/home/john/Descargas/spring-boot-web/src/main/java/com/bolsadeideas/springboot/web/app/models/Usuario.java
+/home/john/Descargas/spring-boot-web/src/main/java/com/bolsadeideas/springboot/web/app/SpringBootWebApplication.java
+/home/john/Descargas/spring-boot-web/src/main/java/com/bolsadeideas/springboot/web/app/controllers/HomeController.java
+/home/john/Descargas/spring-boot-web/src/main/java/com/bolsadeideas/springboot/web/app/controllers/IndexController.java
+/home/john/Descargas/spring-boot-web/src/main/java/com/bolsadeideas/springboot/web/app/controllers/EjemploVariablesRutaController.java
+/home/john/Descargas/spring-boot-web/src/main/java/com/bolsadeideas/springboot/web/app/TextosPropertiesConfig.java
