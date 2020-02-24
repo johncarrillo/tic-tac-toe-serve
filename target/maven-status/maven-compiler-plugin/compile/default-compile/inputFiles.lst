@@ -1,7 +1,6 @@
-/home/john/Descargas/spring-boot-web/src/main/java/com/bolsadeideas/springboot/web/app/controllers/EjemploParamsController.java
-/home/john/Descargas/spring-boot-web/src/main/java/com/bolsadeideas/springboot/web/app/models/Usuario.java
-/home/john/Descargas/spring-boot-web/src/main/java/com/bolsadeideas/springboot/web/app/SpringBootWebApplication.java
-/home/john/Descargas/spring-boot-web/src/main/java/com/bolsadeideas/springboot/web/app/controllers/HomeController.java
-/home/john/Descargas/spring-boot-web/src/main/java/com/bolsadeideas/springboot/web/app/controllers/IndexController.java
-/home/john/Descargas/spring-boot-web/src/main/java/com/bolsadeideas/springboot/web/app/controllers/EjemploVariablesRutaController.java
-/home/john/Descargas/spring-boot-web/src/main/java/com/bolsadeideas/springboot/web/app/TextosPropertiesConfig.java
+/home/jjcarrillo/Documentos/tic-tac-toe-serve/src/main/java/co/edu/ufps/tic_tac_toe/models/Tablero.java
+/home/jjcarrillo/Documentos/tic-tac-toe-serve/src/main/java/co/edu/ufps/tic_tac_toe/models/Usuario.java
+/home/jjcarrillo/Documentos/tic-tac-toe-serve/src/main/java/co/edu/ufps/tic_tac_toe/controllers/HiloJugador.java
+/home/jjcarrillo/Documentos/tic-tac-toe-serve/src/main/java/co/edu/ufps/tic_tac_toe/models/Partida.java
+/home/jjcarrillo/Documentos/tic-tac-toe-serve/src/main/java/co/edu/ufps/tic_tac_toe/SpringBootWebApplication.java
+/home/jjcarrillo/Documentos/tic-tac-toe-serve/src/main/java/co/edu/ufps/tic_tac_toe/controllers/ServidorSocket.java

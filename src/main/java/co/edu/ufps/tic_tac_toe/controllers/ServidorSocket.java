@@ -23,7 +23,7 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class ServidorSocket {
 
-    private final int puerto = 8090;
+    private final int puerto = 8091;
     private LinkedList<Socket> usuarios;
     private List<Usuario> listaUsuario;
     private DataOutputStream out;
