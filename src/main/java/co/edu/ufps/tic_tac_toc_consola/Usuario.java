@@ -23,6 +23,7 @@ public class Usuario {
     private DataOutputStream out;
     private DataInputStream in;
     private String ganoPartida;
+    private boolean jugando;
     //El puerto debe ser el mismo en el que escucha el servidor
     private int puerto = 8090;
     //Si estamos en nuestra misma maquina usamos localhost si no la ip de la maquina servidor
@@ -74,6 +75,14 @@ public class Usuario {
 
     public void setGanoPartida(String ganoPartida) {
         this.ganoPartida = ganoPartida;
+    }
+
+    public boolean isJugando() {
+        return jugando;
+    }
+
+    public void setJugando(boolean jugando) {
+        this.jugando = jugando;
     }
 
 }

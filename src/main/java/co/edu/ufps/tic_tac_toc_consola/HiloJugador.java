@@ -60,19 +60,39 @@ public class HiloJugador implements Runnable{
     }
     /*
         metodo encargado de buscar al usuario para saber su puntaje,
-        si no lo encuentra lo crea por defecto puntaje 0
+        si no lo encuentra lo crea por defecto puntaje 0,
+        los nombres de los usuarios son unicos
     */
     private void buscarUsuario(List<Usuario> listaUsuario) throws IOException {
-        String nombreUsuario = in.readUTF();
-        for (Usuario usuario: listaUsuario) {
-            if (usuario.getNombre().equals(nombreUsuario)) {
-                this.usuario = usuario;
+        String nombreUsuario = null;
+        boolean agregarNuevoUsuario = true;
+        while (true) {
+            nombreUsuario = in.readUTF();
+            agregarNuevoUsuario = true;
+            for (Usuario usuario: listaUsuario) {
+                if (usuario.getNombre().equals(nombreUsuario)) {
+                    if (usuario.isJugando()) {
+                        /*
+                            Ya esta jugando en otro cliente con este mismo nombre
+                        */
+                        out.writeUTF("false");
+                        agregarNuevoUsuario = false;
+                        break;
+                    }
+                    this.usuario = usuario;
+                    usuario.setJugando(true);
+                    return;
+                }
+            }
+            if (agregarNuevoUsuario) {
+                this.usuario = new Usuario(nombreUsuario);
+                this.usuario.setMarca('X');
+                listaUsuario.add(usuario);
+                usuario.setJugando(true);
                 return;
             }
         }
-        this.usuario = new Usuario(nombreUsuario);
-        this.usuario.setMarca('X');
-        listaUsuario.add(usuario);
+        
     }
 
     private void mostrarTablero ()  {
@@ -130,6 +150,7 @@ public class HiloJugador implements Runnable{
     }
 
     private void matarHilo() {
+        usuario.setJugando(false);
         this.partida.removerUsuario(usuario);
         this.partida.reiniciarPartida();
         this.usuariosSocket.remove(this.socket);

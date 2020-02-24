@@ -39,6 +39,9 @@ public class ServidorSocket {
             while (true) {
                 //Espera a que un jugador se conecte con exito
                 Socket usuario = servidor.accept();
+                if (partida.getUsuario2() != null) {
+                    partida = new Partida();
+                }
                 in = new DataInputStream(usuario.getInputStream());
                 out = new DataOutputStream(usuario.getOutputStream());
                 System.out.println("Se conecto un jugador");
