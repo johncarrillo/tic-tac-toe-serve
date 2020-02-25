@@ -3,10 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package co.edu.ufps.tic_tac_toe.controllers;
+package co.edu.ufps.tic_tac_toc_consola;
 
-import co.edu.ufps.tic_tac_toe.models.Partida;
-import co.edu.ufps.tic_tac_toe.models.Usuario;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
