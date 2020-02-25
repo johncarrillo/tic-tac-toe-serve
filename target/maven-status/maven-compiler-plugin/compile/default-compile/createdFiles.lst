@@ -1,0 +1,6 @@
+co/edu/ufps/tic_tac_toe/models/Partida.class
+co/edu/ufps/tic_tac_toe/models/Usuario.class
+co/edu/ufps/tic_tac_toe/models/Tablero.class
+co/edu/ufps/tic_tac_toe/controllers/ServidorSocket.class
+co/edu/ufps/tic_tac_toe/SpringBootWebApplication.class
+co/edu/ufps/tic_tac_toe/controllers/HiloJugador.class
